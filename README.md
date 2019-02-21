@@ -3,7 +3,7 @@
 A practice demo project using neural style transfer to create 'art' pictures.
 ## Basic Information
 The pretrained model used is VGG-19. Unfortunately the .mat file of the model is too large to store in Github.
-To download the model you may find various sources e.g. http://www.vlfeat.org/matconvnet/models/beta16/
+To download the model you may find various sources e.g. http://www.vlfeat.org/matconvnet/models/beta16/.
 The content image is a photo of Dalian at dusk and the style image is the famous painting *The Starry Night* by Vincent van Gogh. Both images are contained in folder *images*.
 The model outputs one generated image every 20 iterations and all the output images are stored in the folder *output* where you can clearly see the style 'grows' on the content image. You will also notice a decreasing total cost and style cost while running the program.
 
